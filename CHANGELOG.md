@@ -46,6 +46,7 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 
 ### Changed
 * [Refactor] `variableUtil`: Avoid creating a single flat variable scope for each lookup ([#3782][] @DanielRosenwasser)
+* [Tests] add @typescript-eslint/parser v6 ([#3629][] @HenryBrown0)
 
 [7.35.0]: https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.34.4...v7.35.0
 [#3785]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3785
@@ -57,6 +58,7 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 [#3771]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3771
 [#3759]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3759
 [#3748]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3748
+[#3746]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3746
 [#3724]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3724
 [#3694]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3694
 [#3629]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3629
