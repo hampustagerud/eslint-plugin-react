@@ -106,7 +106,7 @@ jobs:
           after_install: |
             npm install --no-save "eslint@${{ matrix.eslint }}" "@typescript-eslint/parser@${{ matrix.typescript-eslint }}" "babel-eslint@${{ matrix.babel-eslint }}"
         env:
-          NPM_CONFIG_LEGACY_PEER_DEPS: true
+          NPM_CONFIG_LEGACY_PEER_DEPS: "${{ matrix.typescript-eslint >= 6 && 'false' || 'true' }}"
       - run: npx ls-engines
       - run: npm run unit-test
       - uses: codecov/codecov-action@v3.1.5
