@@ -9,6 +9,14 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 ### Added
 * [`no-string-refs`]: allow this.refs in > 18.3.0 ([#3807][] @henryqdineen)
 
+### Fixed
+* [`function-component-definition`], [`boolean-prop-naming`], [`jsx-first-prop-new-line`], [`jsx-props-no-multi-spaces`], `propTypes`: use type args ([#3629][] @HenryBrown0)
+
+### Changed
+* [Tests] add @typescript-eslint/parser v6 ([#3629][] @HenryBrown0)
+* [Tests] add @typescript-eslint/parser v7 and v8 ([#3629][] @hampustagerud)
+
+[#3629]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3629
 [#3807]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3807
 
 ## [7.35.2] - 2024.09.03
@@ -42,11 +50,9 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 * [`no-invalid-html-attribute`]: substitute placeholders in suggestion messages ([#3759][] @mdjermanovic)
 * [`sort-prop-types`]: single line type ending without semicolon ([#3784][] @akulsr0)
 * [`require-default-props`]: report when required props have default value ([#3785][] @akulsr0)
-* [`function-component-definition`], [`boolean-prop-naming`], [`jsx-first-prop-new-line`], [`jsx-props-no-multi-spaces`], `propTypes`: use type args ([#3629][] @HenryBrown0)
 
 ### Changed
 * [Refactor] `variableUtil`: Avoid creating a single flat variable scope for each lookup ([#3782][] @DanielRosenwasser)
-* [Tests] add @typescript-eslint/parser v6 ([#3629][] @HenryBrown0)
 
 [7.35.0]: https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.34.4...v7.35.0
 [#3785]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3785
@@ -61,7 +67,6 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 [#3746]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3746
 [#3724]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3724
 [#3694]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3694
-[#3629]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3629
 
 ## [7.34.4] - 2024.07.13
 
